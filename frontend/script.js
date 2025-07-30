@@ -11,9 +11,10 @@ function LoadData(callback){
 }
 function renderProducts (){
 
-    document.getElementById("data").innerHTML=` <table>
+    document.getElementById("data").innerHTML=` <table border>
             <thead>
                 <tr>
+                    <th>Serial number</th>
                     <th>product</th>
                     <th>price</th>
                     <th>description</th>
